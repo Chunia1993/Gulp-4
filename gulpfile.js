@@ -8,7 +8,7 @@ let path = {
         js: project_folder + "/js/",
         img: project_folder + "/img/",
         fonts: project_folder + "/fonts/",
-        lib: project_folder + "/lib/",
+        lib: project_folder + "/libs/",
     },
     src: {
         html: [source_folder + "/**/*.html", "!" + source_folder + "/_include/_*.html"],
@@ -16,7 +16,7 @@ let path = {
         js: source_folder + "/js/script.js",
         img: source_folder + "/img/**/*.{jpg, png, svg, ico, webp}",
         fonts: source_folder + "/fonts/*.ttf",
-        lib: source_folder + "/lib/**/*",
+        lib: source_folder + "/libs/**/*",
     },
     watch: {
         html: source_folder + "/**/*.html",
